@@ -14,7 +14,6 @@ public class Video {
 
     public void play() {
         System.out.println("Playing: " + title);
-        // Reproduz o vídeo
     }
 
     public byte[] getData() {
@@ -23,13 +22,5 @@ public class Video {
 
     public String getId() {
         return id;
-    }
-
-    @Override
-    public String toString() {
-        return "Video{" +
-                "id='" + id + '\'' +
-                ", title='" + title + '\'' +
-                '}';
     }
 }
