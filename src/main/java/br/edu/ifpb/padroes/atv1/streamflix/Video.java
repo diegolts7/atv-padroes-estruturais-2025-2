@@ -1,6 +1,6 @@
 package br.edu.ifpb.padroes.atv1.streamflix;
 
-public class Video {
+public class Video implements VideoComponent{
 
     private String id;
     private String title;
@@ -16,10 +16,14 @@ public class Video {
         System.out.println("Playing: " + title);
     }
 
+    @Override
+    public String getTitle() { return title; }
+
     public byte[] getData() {
         return data;
     }
 
+    @Override
     public String getId() {
         return id;
     }
