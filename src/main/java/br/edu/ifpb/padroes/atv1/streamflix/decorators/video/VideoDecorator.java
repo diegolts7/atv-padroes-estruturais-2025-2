@@ -21,4 +21,9 @@ public abstract class VideoDecorator implements VideoComponent {
     public byte[] getData() {
         return decoratedVideo.getData();
     }
+
+    @Override
+    public String getId() {
+        return decoratedVideo.getId();
+    }
 }
