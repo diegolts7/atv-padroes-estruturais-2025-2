@@ -1,10 +1,9 @@
-package br.edu.ifpb.padroes.atv1.streamflix.facade;
+package br.edu.ifpb.padroes.atv1.streamflix;
 
-import br.edu.ifpb.padroes.atv1.streamflix.Video;
 import br.edu.ifpb.padroes.atv1.streamflix.auth.AuthenticationService;
 import br.edu.ifpb.padroes.atv1.streamflix.converter.VideoConverter;
 import br.edu.ifpb.padroes.atv1.streamflix.storage.VideoStorage;
-import br.edu.ifpb.padroes.atv1.streamflix.stream.StreamingService;
+import br.edu.ifpb.padroes.atv1.streamflix.facade.StreamingService;
 import br.edu.ifpb.padroes.atv1.streamflix.subtitle.SubtitleService;
 
 public class StreamflixFacade {

@@ -1,4 +1,4 @@
-package br.edu.ifpb.padroes.atv1.streamflix.stream;
+package br.edu.ifpb.padroes.atv1.streamflix.facade;
 
 public class StreamingService {
 
